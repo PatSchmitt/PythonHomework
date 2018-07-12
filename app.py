@@ -5,9 +5,9 @@ def fahrenheit_to_celsius(input):
     fahrenheit = int(input("What is the temperature in Fahrenheit?: "))
     ##Math
     celsius = (fahrenheit - 32) * 5 / 9
-    round(celsius,2)
+    rounded_celsius = round(celsius, 2)
     #Print string and celsius variable
-    print ("The temperature in Celsius is: ", celsius)
+    print ("The temperature in Celsius is: ", rounded_celsius)
     
 ## CELSIUS TO FAHRENHEIT           
 def celsius_to_fahrenheit(input):        
@@ -16,9 +16,9 @@ def celsius_to_fahrenheit(input):
     celsius = int(input("What is the temperature in Celsius?: "))
     ## Math
     fahrenheit = (1.8 * celsius) + 32
-    round(fahrenheit,2)
+    rounded_fahrenheit = round(fahrenheit, 2)
     ##Print string and fahrenheit variable
-    print ("The temperature in Fahrenheit is: ", fahrenheit)
+    print ("The temperature in Fahrenheit is: ", rounded_fahrenheit)
 
     
     #function to select which calculator used
