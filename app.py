@@ -24,10 +24,10 @@ def celsius_to_fahrenheit(input):
     #function to select which calculator used
 def select_conversion(input):
     #1 = Fahrenheit to Celsius, 2 = Celsius to Fahrenheit. Anything else returns string 'Not a valid input'.
-    int(input("Which converter are you looking for?: "))
-    if 1:
+    user_int_choice = int(input("Which converter are you looking for?: "))
+    if user_int_choice == 1:
         return fahrenheit_to_celsius(input)
-    elif 2:
+    elif user_int_choice == 2:
         return celsius_to_fahrenheit(input)
     else:
         #if input isn't the number 1 or 2, returns string.
